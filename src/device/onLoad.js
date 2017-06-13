@@ -88,7 +88,7 @@ realityEditor.device.onload = function () {
 	globalCanvas.context = canvas.getContext('2d');
 
 	//if (globalStates.platform) {
-		window.location.href = "of://kickoff";
+	//	window.location.href = "of://kickoff";
 	//	}
 
 	globalCanvas.canvas.addEventListener("pointerdown", realityEditor.device.onCanvasPointerDown.bind(realityEditor.device), false);
